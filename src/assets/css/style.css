@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+/* BASE CSS */
+@import url("_variables.css");
+@import url("_ultilities.css");
+@import url("_base.css");
+
+/* Components */
+@import url("components/_container.css");
+@import url("components/_heading.css");
+@import url("components/_text.css");
+@import url("components/_button.css");
+@import url("components/_brand.css");
+@import url("components/_shadow.css");
+@import url("components/_icon.css");
+    
+
+
+/* Sections */
+@import url("sections/_navbar.css");
+@import url("sections/_header.css");
+@import url("sections/_about.css");
+@import url("sections/_features.css");
+@import url("sections/_pricing.css");
+@import url("sections/_network.css");
+@import url("sections/_testimonials.css");
+@import url("sections/_footer.css");
