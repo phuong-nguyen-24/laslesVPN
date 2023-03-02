@@ -49,5 +49,10 @@ body {
   background-color: var(--bg-color);
 }
 
+main {
+  position: relative;
+  padding-bottom: 10rem;
+}
+
 
 

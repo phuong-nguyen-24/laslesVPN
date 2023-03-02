@@ -1,13 +1,3 @@
-/* .about-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.about-item {
-    display: flex;
-    justify-content: center ;
-} */
-
 .about-container {
     --grid-cols: 3;
     display: grid;
