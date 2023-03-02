@@ -14,6 +14,10 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- AOS CSS -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Custom Css -->
 
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -88,7 +92,7 @@
       <div class="container">
         <div class="header-container">
           <!-- Text -->
-          <div>
+          <div data-aos="zoom-out-right">
             <div>
               <div class="header-text">
                 <h1>
@@ -108,7 +112,7 @@
           </div>
 
           <!-- Image -->
-          <div>
+          <div data-aos="zoom-out-left">
             <img
               src="./assets/img/illustrations/heard.svg"
               alt="Header Illustration"
@@ -122,7 +126,7 @@
       <!-- About -->
       <section class="about">
         <div class="container">
-          <div class="about-container shadow">
+          <div class="about-container shadow" data-aos="fade-up">
             <div class="about-item">
               <div class="about-box">
                 <div class="about-content">
@@ -176,13 +180,17 @@
       <section class="features">
         <div class="container">
           <div class="features-container">
-            <div>
+            <div data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <img
                 src="./assets/img/illustrations/features.svg"
                 alt="Features Illustration"
               />
             </div>
-            <div>
+            <div data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <div class="feature-content">
                 <div class="feature-heading">
                   <h2>We Provide Many Features You Can Use</h2>
@@ -229,7 +237,9 @@
             </div>
 
             <div class="pricing-grid">
-              <div class="pricing-item">
+              <div class="pricing-item" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
                 <div class="pricing-content">
                   <div class="pricing-header">
                     <img
@@ -263,7 +273,9 @@
                   </div>
                 </div>
               </div>
-              <div class="pricing-item">
+              <div class="pricing-item" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
                 <div class="pricing-content">
                   <div class="pricing-header">
                     <img
@@ -301,7 +313,9 @@
                   </div>
                 </div>
               </div>
-              <div class="pricing-item">
+              <div class="pricing-item" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
                 <div class="pricing-content">
                   <div class="pricing-header">
                     <img
@@ -400,6 +414,60 @@
             </div>
             <div class="testimonials-slider">
               <div class="testimonials-row">
+                <div class="testimonial">
+                  <div class="testimonial-header">
+                    <div class="testimonial-customer">
+                      <div class="customer-avatar">
+                        <img
+                          src="./assets/img/testimonials/costume-1.png"
+                          alt="Viezh Robert"
+                        />
+                      </div>
+                      <div class="customer-info">
+                        <h5>Viezh Robert</h5>
+                        <p class="text-sm">Warsaw, Poland</p>
+                      </div>
+                    </div>
+                    <div class="rating">
+                      <span>4.5</span>
+                      <i class="icon icon-star icon-sm fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="testimonial-body">
+                    <p class="text-md">
+                      “Wow... I am very happy to use this VPN, it turned out to
+                      be more than my expectations and so far there have been no
+                      problems. LaslesVPN always the best”.
+                    </p>
+                  </div>
+                </div>
+                <div class="testimonial">
+                  <div class="testimonial-header">
+                    <div class="testimonial-customer">
+                      <div class="customer-avatar">
+                        <img
+                          src="./assets/img/testimonials/costume-1.png"
+                          alt="Viezh Robert"
+                        />
+                      </div>
+                      <div class="customer-info">
+                        <h5>Yessica Christy</h5>
+                        <p class="text-sm">Warsaw, Poland</p>
+                      </div>
+                    </div>
+                    <div class="rating">
+                      <span>4.5</span>
+                      <i class="icon icon-star icon-sm fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <div class="testimonial-body">
+                    <p class="text-md">
+                      “Wow... I am very happy to use this VPN, it turned out to
+                      be more than my expectations and so far there have been no
+                      problems. LaslesVPN always the best”.
+                    </p>
+                  </div>
+                </div>
                 <div class="testimonial">
                   <div class="testimonial-header">
                     <div class="testimonial-customer">
@@ -607,5 +675,13 @@
         </div>
       </div>
     </footer>
+
+    <!-- AOS Script -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({duration:800});
+    </script>
+
   </body>
 </html>

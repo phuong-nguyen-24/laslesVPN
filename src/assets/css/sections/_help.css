@@ -5,6 +5,7 @@
     bottom: 0;
     transform: translateY(50%);
     width: 100%;
+    
 }
 
 .help-container {
@@ -14,6 +15,10 @@
     padding: 3.5rem 4.5rem;
     background-color: var(--bg-color);
     border-radius: var(--rounded);
+}
+
+.help-container.shadow {
+    z-index: 0;
 }
 
 .help-heading {

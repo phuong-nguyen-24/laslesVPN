@@ -10,6 +10,7 @@
   display: flex;
   gap: var(--column-gap);
   margin-bottom: 3.75rem;
+  overflow-x: scroll;
 }
 
 .testimonial {
@@ -19,6 +20,12 @@
   border: var(--border);
   border-radius: var(--rounded);
   padding: 1.75rem;
+  flex-shrink: 0;
+  flex-basis: 30%;
+}
+
+.testimonial:hover {
+  border-color: var(--primary-color);
 }
 
 .testimonial-header {
